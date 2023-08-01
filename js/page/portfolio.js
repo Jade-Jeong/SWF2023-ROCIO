@@ -8,4 +8,4 @@ jQuery(document).ready(function($) {
     }, 500);
   });
 
-  const lastIdx = 1;
+  var lastIdx = 1;

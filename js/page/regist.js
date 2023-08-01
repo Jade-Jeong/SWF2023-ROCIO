@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 
 });
 
-const lastIdx = 2;
+var lastIdx = 2;
 function add_textbox(){
 
     const box = document.getElementById("box");
