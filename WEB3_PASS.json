@@ -33070,12 +33070,12 @@
     "11155111": {
       "events": {},
       "links": {},
-      "address": "0x816A4EE641ee87Dd26FA0d750910bB5b382e1De7",
-      "transactionHash": "0x4509cfde343d8827bfdceeebc4381d0485e20a2edca9182fd5e5224214f3b4da"
+      "address": "0xa975bac3d1afadd445fe687801454e05A5C288df",
+      "transactionHash": "0x06861399f437432da372d702922fb0b879304f510a8a65ccaa57ffc102d8e942"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-07-31T11:33:09.292Z",
+  "updatedAt": "2023-08-01T05:04:21.274Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
