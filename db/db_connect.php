@@ -1,10 +1,6 @@
 <?php
 ini_set('session.bug_compat_warn', 0);
-define("DBHOST","berrypic-test.c5zazcefl9l5.ap-northeast-2.rds.amazonaws.com");
-define("DBNAME","web3pass");
-define("DBID","rocio");
-define("DBPW","rocio1012");
-define('SALT', 'zvJc5@77+uC!5#F*dGMysvjRGP7M25G$F6!VzF=y');
+
 
           $dbcon = mysql_connect(DBHOST, DBID, DBPW);
             mysql_select_db(DBNAME, $dbcon);
@@ -14,10 +10,7 @@ define('SALT', 'zvJc5@77+uC!5#F*dGMysvjRGP7M25G$F6!VzF=y');
 
             try{
 
-              $hostName ="berrypic-test.c5zazcefl9l5.ap-northeast-2.rds.amazonaws.com";
-              $databaseName ="web3pass";
-              $userName ="rocio";
-              $userPassword ="rocio1012";
+
              $option = array(
                  // PDO::MYSQL_ATTR_FOUND_ROWS => true,
                  PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
