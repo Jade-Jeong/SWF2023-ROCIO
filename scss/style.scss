@@ -1,0 +1,106 @@
+/*
+
+Template: Saaskit- Landing Page Template for SaaS, Startup & Agency
+Version: 1.0.0
+Author: potenzaglobalsolutions
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This is main stylesheet of template, This file contains the styling for the actual Template.
+
+*/
+
+/*==============================================
+[  Table of contents  ]
+================================================
+
+ :: Typography
+ :: Helper Classes
+ :: Shortcodes
+    - Accordion
+    - Button
+    - Badge
+		- Counter
+    - Category
+		- Date time Picker
+    - Feature Info
+    - Progress Bar
+    - Portfolio
+    - Pricing
+    - List
+    - Countdown
+    - Testimonial
+		- Owl carousel
+		- Range Slider
+		- Select
+		- Tabs
+    - Team
+ :: Header
+   - Header default
+   - Header center
+   - Header transparent
+   - Header transparent light
+ :: Banner
+   - Banner 01
+   - Banner 02
+   - Banner 03
+   - Banner shop
+   - Mobile Banner
+ :: Layout
+   - Section Title
+   - Client Logo
+ :: Sidebar
+ :: Blog
+   - Blog
+   - Blog 02
+   - Blog sidebar
+ :: Shop
+   - Product
+   - Product Detail
+    - Shop Sidebar
+    - Checkout
+    - Cart
+ :: Not Found
+ :: Footer
+
+======================================
+[ End table content ]
+======================================*/
+
+// Core files
+@import "variables";
+@import "typography";
+@import "helpers";
+
+// Shortcodes
+@import "shortcodes/accordion";
+@import "shortcodes/counter";
+@import "shortcodes/portfolio";
+@import "shortcodes/category";
+@import "shortcodes/tabs";
+@import "shortcodes/team";
+@import "shortcodes/owl-carousel";
+@import "shortcodes/datetimepicker";
+@import "shortcodes/feature-info";
+@import "shortcodes/progress-bar";
+@import "shortcodes/list";
+@import "shortcodes/countdown";
+@import "shortcodes/testimonial";
+@import "shortcodes/button";
+@import "shortcodes/pricing";
+@import "shortcodes/select";
+@import "shortcodes/range-slider";
+@import "shortcodes/badge";
+
+// Structure
+@import "header";
+@import "sidebar";
+@import "banner";
+@import "layout";
+
+// Pages
+@import "shop";
+@import "blog";
+@import "footer";
+
+// Responsive
+@import "responsive";

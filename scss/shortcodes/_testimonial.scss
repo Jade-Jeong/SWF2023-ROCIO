@@ -1,0 +1,143 @@
+/*****************************
+  Testimonial
+*****************************/
+.testimonial-item {
+  padding: 40px;
+  background: $white;
+
+  .testimonial-info {
+    display: flex;
+
+    .testimonial-avatar-img {
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+    }
+
+  }
+
+  .testimonial-content {
+    p {
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+  }
+
+}
+
+.testimonial-item.shadow {
+  box-shadow: 0px 15px 30px 0px rgba($black, 0.07);
+  margin: 15px 20px 30px;
+}
+
+.testimonial-style-01 {
+  position: relative;
+
+  .quote {
+    i {
+      position: absolute;
+      z-index: -1;
+      left: 40px;
+      top: 10px;
+      font-size: 100px;
+      color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+  }
+
+  .testimonial-item {
+    background: inherit;
+
+    .testimonial-content {
+      p {
+        font-size: 22px;
+        line-height: 32px;
+      }
+
+    }
+
+  }
+
+  .owl-dots {
+    text-align: left;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+
+  .testimonial-img {
+    img {
+      border-radius: 50%;
+      border: 30px solid $white;
+    }
+
+  }
+
+  .testimonial-img-01 {
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: relative;
+      bottom: 200px;
+      right: -200px;
+    }
+
+  }
+
+  .testimonial-img-02 {
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: relative;
+      bottom: 40px;
+      right: -150px;
+    }
+
+  }
+
+  .testimonial-img-03 {
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: relative;
+      top: -400px;
+      left: -180px;
+    }
+
+  }
+
+  .testimonial-quote {
+    margin-bottom: 20px;
+    position: relative;
+
+    i {
+      font-size: 28px;
+      display: inline-block;
+      line-height: 28px;
+      background: $gray-9;
+      border-radius: 50%;
+      position: absolute;
+      bottom: -200px;
+      left: 145px;
+      padding: 15px;
+    }
+
+  }
+
+}
+
+.owl-dots-dark {
+  .owl-dots {
+    .owl-dot.active {
+      span {
+        background-color: $gray-9;
+      }
+
+    }
+
+  }
+
+}

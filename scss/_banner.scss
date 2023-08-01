@@ -1,0 +1,242 @@
+/*****************************
+    Banner
+*****************************/
+
+/* Banner 01 */
+.banner {
+  .contant {
+    position: relative;
+    z-index: 9;
+  }
+
+  .banner-img {
+    position: relative;
+    z-index: 99;
+    bottom: 0px;
+    right: 0px;
+  }
+
+}
+
+/* Mobile Banner */
+.mobile-banner {
+  .swiper-slide {
+    padding-top: 115px;
+  }
+
+}
+
+.rating {
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+    }
+
+  }
+
+}
+
+/* Banner 02 */
+.banner.banner-02 {
+  .banner-img {
+    position: absolute;
+    z-index: 1;
+    bottom: inherit;
+    top: 80px;
+    right: 0px;
+  }
+
+}
+
+/* Banner 03 */
+.banner.banner-03 {
+  .banner-img {
+    position: absolute;
+    z-index: 1;
+    bottom: inherit;
+    top: 180px;
+    right: 100px;
+  }
+
+}
+
+.banner-logo {
+  padding: 10px 20px;
+  background: $primary;
+  flex: 0 0 240px;
+  border-radius: 7px;
+  color: $white;
+  font-size: 70px;
+  line-height: 60px;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.banner-logo:before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 21px;
+  right: -30px;
+  border-top: 20px solid rgba($primary, 0);
+  border-left: 20px solid $primary;
+  top: 15px;
+}
+
+/* Banner Shop */
+.slider-shop {
+  .swiper-slide {
+    height: 680px;
+
+    .banner-border {
+      background: $black;
+      height: 1px;
+      width: 120px;
+      position: absolute;
+      top: 16px;
+      left: -125px;
+    }
+
+    h1 {
+      font-weight: 400;
+      color: $black;
+    }
+
+    h5 {
+      font-weight: 300;
+      color: $black;
+      letter-spacing: 1px;
+    }
+
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    background-image: none !important;
+  }
+
+}
+
+@media (max-width:1366px) {
+  .banner.banner-02 {
+    background: $primary;
+  }
+
+  .banner.banner-02 .banner-img {
+    top: 120px;
+  }
+
+  .banner.banner-03 .banner-img {
+    right: 0;
+  }
+
+}
+
+@media (max-width:1199px) {
+  .slider-shop .swiper-slide {
+    height: 450px;
+  }
+
+  .banner.banner-03 .banner-img {
+    position: relative;
+    z-index: 1;
+    bottom: inherit;
+    top: 0;
+    right: 0px;
+  }
+
+  .banner.banner-03 {
+    padding: 100px 0px 0px 0px;
+  }
+
+  .banner.banner-03 #main-slider {
+    height: inherit;
+  }
+
+  .banner.banner-02 .banner-img {
+    right: -190px;
+  }
+
+}
+
+@media (max-width:991px) {
+  .slider-shop .swiper-slide {
+    padding: 50px 0 0 0;
+    height: inherit;
+  }
+
+  .banner-02 {
+    padding: 100px 0 60px;
+  }
+
+  .banner-02 .h-900 {
+    height: auto;
+  }
+
+  .info-box-03 {
+    padding: 0;
+  }
+
+}
+
+@media (max-width:767px) {
+  .slider-shop .swiper-slide h1 {
+    font-weight: 400;
+    color: #000000;
+    font-size: 38px;
+  }
+
+  .mobile-banner {
+    padding: 40px 0px 80px 0;
+
+    #main-slider {
+      height: inherit;
+    }
+
+  }
+
+  .banner.marketing-banner {
+    padding: 80px 0px 80px 0;
+
+    #main-slider {
+      height: inherit;
+    }
+
+  }
+
+  .banner.marketing-banner .hero-app-1,
+  .banner.marketing-banner .hero-app-2,
+  .banner.marketing-banner .hero-app-3,
+  .banner.marketing-banner .hero-app-4,
+  .banner.marketing-banner .hero-app-5,
+  .banner.marketing-banner .hero-app-6,
+  .banner.marketing-banner .hero-app-7 {
+    display: none;
+  }
+
+}
+
+@media (max-width:575px) {
+  .slider-shop .swiper-slide {
+    padding: 100px 0px;
+  }
+
+  .slider-shop .swiper-slide h1 {
+    font-size: 26px;
+  }
+
+  .slider-shop .swiper-slide .banner-content h5 {
+    font-size: 18px;
+  }
+
+  .banner-logo {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+}

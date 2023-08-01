@@ -1,0 +1,119 @@
+/*****************************
+  Shortcodes
+*****************************/
+.accordion {
+	.accordion-item {
+		border: none;
+		background: none;
+	}
+
+	.accordion-button {
+		border: none !important;
+		border-radius: 50px !important;
+		background: $gray-1;
+		margin-bottom: 10px;
+		text-transform: capitalize;
+
+		&:focus {
+			box-shadow: none;
+		}
+
+	}
+
+	.accordion-collapse {
+		border: none !important;
+	}
+
+	.accordion-button:not(.collapsed) {
+		color: $white;
+		background-color: $primary;
+		border-radius: 50px !important;
+		font-weight: 500;
+	}
+
+	.accordion-header {
+		.accordion-button {
+			display: flex;
+			background: $gray-1;
+			font-size: 18px;
+			color: $gray-8;
+			padding: 22px 30px 22px 42px;
+			width: 100%;
+			text-align: left;
+			border: none;
+			font-weight: normal;
+			position: relative;
+			border-radius: $border-radius;
+			font-weight: 500;
+			text-transform: capitalize;
+
+			&:focus {
+				box-shadow: none;
+				border-color: $border-color;
+			}
+
+		}
+
+		.btn {
+			&:after {
+				content: "\f078";
+				margin-left: auto;
+				transform: rotate(0deg);
+				font-family: "Font Awesome 5 Free";
+				font-weight: bold;
+			}
+
+			&:hover {
+				transform: translateY(0px);
+				box-shadow: none;
+			}
+
+		}
+
+		.accordion-button:not(.collapsed) {
+			background: $primary;
+			color: $white;
+
+			&:after {
+				transform: rotate(180deg);
+			}
+
+		}
+
+	}
+
+}
+
+.accordion-button::after {
+	background-image: none !important;
+}
+
+/* accordion-big */
+.accordion.accordion-big {
+	.accordion-button {
+		padding: 1.6rem 2.25rem;
+		font-size: 20px;
+	}
+
+}
+
+.accordion.accordion-success .accordion-header .accordion-button.collapsed {
+	color: $gray-8;
+	background-color: $gray-1;
+}
+
+.accordion.accordion-success .accordion-header .accordion-button {
+	color: $white;
+	background-color: $success;
+}
+
+.accordion.accordion-success {
+	.accordion-header {
+		.accordion-button:not(.collapsed) {
+			color: $white;
+			background-color: $success;
+		}
+
+	}
+
+}

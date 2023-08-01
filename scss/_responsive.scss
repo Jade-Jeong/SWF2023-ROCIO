@@ -1,0 +1,111 @@
+/*************************
+       1700px
+*************************/
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.container {
+		max-width: 96%;
+	}
+
+}
+
+/*************************
+       1199px
+*************************/
+@media (max-width:1199px) {
+	.navbar .navbar-nav .nav-link {
+		padding: 10px 13px;
+	}
+
+	.action-box-style-01 {
+		top: 100px;
+	}
+
+}
+
+/*************************
+       991px
+*************************/
+@media (max-width:991px) {
+	.space-ptb {
+		padding: 60px 0;
+	}
+
+	.space-pt {
+		padding-top: 60px;
+	}
+
+	.space-pb {
+		padding-bottom: 60px;
+	}
+
+	.pricing-title-bg {
+		svg {
+			background: $primary !important;
+		}
+
+	}
+
+	.action-box-style-01 {
+		top: 80px;
+	}
+
+}
+
+/*************************
+       767px
+*************************/
+@media (max-width:767px) {
+	.space-ptb {
+		padding: 50px 0;
+	}
+
+	.space-pt {
+		padding-top: 50px;
+	}
+
+	.space-pb {
+		padding-bottom: 50px;
+	}
+
+	.pricing-title-bg {
+		svg {
+			padding-bottom: 30px;
+		}
+
+	}
+
+	.action-box-style-01 {
+		top: 60px;
+	}
+
+}
+
+/*************************
+       575px
+*************************/
+@media (max-width:575px) {
+
+	.section-title {
+	    margin-bottom: 40px;
+	}
+
+	.space-ptb {
+		padding: 40px 0;
+	}
+
+	.space-pt {
+		padding-top: 40px;
+	}
+
+	.space-pb {
+		padding-bottom: 40px;
+	}
+
+	.pricing-title-bg {
+		svg {
+			height: 320px;
+		}
+
+	}
+
+}

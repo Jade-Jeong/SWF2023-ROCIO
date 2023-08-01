@@ -1,0 +1,40 @@
+/*************************
+       Badge
+*************************/
+.badge-rounded-circle {
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.40rem;
+    border-radius: 10rem;
+    text-align: center;
+    padding: .1rem;
+}
+
+.badge-rounded-circle >* {
+    margin-left: -1px;
+}
+
+.badge-primary-soft {
+    background-color: rgba($primary, .10);
+    color: $primary;
+}
+
+.badge-secondary-soft {
+    background-color: rgba($secondary, .10);
+    color: $secondary;
+}
+
+.badge-success-soft {
+    background-color: rgba($success, .10);
+    color: $success;
+}
+
+.badge-danger-soft {
+    background-color: rgba($danger, .10);
+    color: $danger;
+}
+
+.badge-warning-soft {
+    background-color: rgba($warning, .10);
+    color: $warning;
+}

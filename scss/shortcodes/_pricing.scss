@@ -1,0 +1,202 @@
+/*****************************
+  Pricing Table
+*****************************/
+.pricing-tab {
+  text-align: center;
+
+  span {
+    vertical-align: middle;
+  }
+
+  .monthly-tab {
+    font-weight: 700;
+    font-size: 18px;
+    color: $gray-8;
+  }
+
+  .yearly-tab {
+    font-weight: 700;
+    font-size: 18px;
+    color: $gray-8;
+  }
+
+}
+
+.pricing {
+  padding: 0px 10px 40px 10px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+
+  .pricing-plan {
+    padding: 40px 30px;
+
+    .pricing-title {
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .pricing-price {
+    display: inline-block;
+    position: relative;
+    color: $gray-3;
+    font-weight: 600;
+    margin-top: 30px;
+
+    sup {
+      position: absolute;
+      top: 15px;
+      left: -20px;
+      font-size: 24px;
+      color: $gray-8;
+    }
+
+    strong {
+      color: $gray-8;
+      font-size: 50px;
+      line-height: 50px;
+      padding-right: 0px;
+      font-weight: 500;
+    }
+
+  }
+
+  .yearly-price {
+    display: none;
+  }
+
+  .change-pricing-price {
+    .yearly-price {
+      display: block;
+    }
+
+    .monthly-price {
+      display: none;
+    }
+
+  }
+
+  .pricing-list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    li {
+      padding: 6px 0;
+      color: $gray-3;
+      font-weight: 500;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+    }
+
+  }
+
+}
+
+.pricing.active {
+  background: $primary;
+
+  .pricing-plan {
+    span {
+    }
+
+  }
+
+}
+
+.pricing.pricing-01 {
+  transition: all 0.3s ease-in-out;
+  background: $white;
+  text-align: left;
+  padding: 30px;
+
+  .pricing-plan {
+    padding: 0 0 30px;
+
+    .pricing-price {
+      padding-left: 20px;
+
+      sup {
+        left: 0;
+      }
+
+    }
+
+    .pricing-title {
+      margin-bottom: 15px;
+    }
+
+  }
+
+  .pricing-list {
+    li {
+      display: flex;
+      align-items: center;
+
+      i {
+        padding: 4px;
+        font-size: 8px;
+        background: $gray-2;
+        color: $gray-3;
+        border-radius: $border-radius;
+      }
+
+    }
+
+  }
+
+  &:hover {
+    background-color: $primary;
+    transition: all 0.4s ease-in-out;
+
+    .pricing-list {
+      li {
+        color: $white;
+
+        i {
+          background: $white;
+          color: $primary;
+        }
+
+      }
+
+    }
+
+    .btn-primary {
+      background: $white;
+      color: $primary;
+    }
+
+    .pricing-plan {
+      .pricing-title {
+        color: $white;
+      }
+
+      .pricing-description {
+        p {
+          color: $white;
+        }
+
+      }
+
+      .pricing-price {
+        color: $white;
+
+        sup {
+          color: $white;
+        }
+
+        strong {
+          color: $white;
+        }
+
+      }
+
+    }
+
+  }
+
+}
